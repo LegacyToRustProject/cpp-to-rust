@@ -34,8 +34,7 @@ pub struct VirtualClass {
 
 /// Detect all virtual functions in `source`, grouped by class.
 pub fn detect_virtual_functions(source: &str) -> Vec<VirtualClass> {
-    let class_re =
-        Regex::new(r"(?m)class\s+(\w+)(?:\s*:\s*[^{]+)?\s*\{").unwrap();
+    let class_re = Regex::new(r"(?m)class\s+(\w+)(?:\s*:\s*[^{]+)?\s*\{").unwrap();
     let _virtual_re = Regex::new(
         r"(?m)^\s*virtual\s+(.*?)\s+(\w+)\s*\(([^)]*)\)\s*(const)?\s*(override)?\s*(?:=\s*0\s*;|\{[^}]*\}|;)",
     )
@@ -121,16 +120,22 @@ fn parse_virtual_line(line: &str, class_name: &str, line_no: usize) -> Option<Vi
 
     // Simpler fallback: line-level regex for virtual declarations
     let simple_re = Regex::new(
-        r"virtual\s+([\w\s\*&:<>,]+?)\s+(\w+)\s*\(([^)]*)\)\s*(const)?\s*(?:override\s*)?(=\s*0)?"
+        r"virtual\s+([\w\s\*&:<>,]+?)\s+(\w+)\s*\(([^)]*)\)\s*(const)?\s*(?:override\s*)?(=\s*0)?",
     )
     .unwrap();
 
     if let Some(cap) = simple_re.captures(line) {
         let return_type = cap[1].trim().to_string();
         let fn_name = cap[2].to_string();
-        let params = cap.get(3).map(|m| m.as_str().trim().to_string()).unwrap_or_default();
+        let params = cap
+            .get(3)
+            .map(|m| m.as_str().trim().to_string())
+            .unwrap_or_default();
         let is_const = cap.get(4).is_some();
-        let is_pure = cap.get(5).map(|m| m.as_str().contains('0')).unwrap_or(false)
+        let is_pure = cap
+            .get(5)
+            .map(|m| m.as_str().contains('0'))
+            .unwrap_or(false)
             || line.contains("= 0");
         let has_default_impl = line.contains('{') && !is_pure;
 

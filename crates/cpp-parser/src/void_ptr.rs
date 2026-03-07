@@ -41,14 +41,11 @@ pub fn detect_void_ptr_patterns(source: &str) -> Vec<VoidPtrPattern> {
     let mut patterns = Vec::new();
 
     // Regex: `void *(*name)(...)` — allocator-style fn ptr returning void*
-    let alloc_re =
-        Regex::new(r"void\s*\*\s*\(\s*\*\s*(\w+)\s*\)\s*\(([^)]*)\)").unwrap();
+    let alloc_re = Regex::new(r"void\s*\*\s*\(\s*\*\s*(\w+)\s*\)\s*\(([^)]*)\)").unwrap();
     // Regex: `void (*name)(...)` — callback or deallocator fn ptr returning void
-    let void_fn_re =
-        Regex::new(r"void\s+\(\s*\*\s*(\w+)\s*\)\s*\(([^)]*)\)").unwrap();
+    let void_fn_re = Regex::new(r"void\s+\(\s*\*\s*(\w+)\s*\)\s*\(([^)]*)\)").unwrap();
     // Regex: plain `void *name` or `const void *name` parameter
-    let void_param_re =
-        Regex::new(r"(?:const\s+)?void\s*\*\s*(\w+)").unwrap();
+    let void_param_re = Regex::new(r"(?:const\s+)?void\s*\*\s*(\w+)").unwrap();
 
     for (line_idx, line) in source.lines().enumerate() {
         let line_no = line_idx + 1;
@@ -210,10 +207,7 @@ fn classify_void_param(name: &str, is_const: bool, _line: &str) -> (VoidPtrKind,
         return (VoidPtrKind::OutputBuffer, "&mut [u8]".to_string());
     }
 
-    (
-        VoidPtrKind::Other,
-        "Box<dyn std::any::Any>".to_string(),
-    )
+    (VoidPtrKind::Other, "Box<dyn std::any::Any>".to_string())
 }
 
 /// Generate a hint string for inclusion in LLM prompts.
@@ -244,12 +238,7 @@ pub fn generate_void_ptr_hints(patterns: &[VoidPtrPattern]) -> String {
         .collect();
     let buffers: Vec<_> = patterns
         .iter()
-        .filter(|p| {
-            matches!(
-                p.kind,
-                VoidPtrKind::InputBuffer | VoidPtrKind::OutputBuffer
-            )
-        })
+        .filter(|p| matches!(p.kind, VoidPtrKind::InputBuffer | VoidPtrKind::OutputBuffer))
         .collect();
 
     if !user_data.is_empty() {
@@ -317,12 +306,7 @@ pub fn count_patterns(patterns: &[VoidPtrPattern]) -> (usize, usize, usize, usiz
         .count();
     let buffers = patterns
         .iter()
-        .filter(|p| {
-            matches!(
-                p.kind,
-                VoidPtrKind::InputBuffer | VoidPtrKind::OutputBuffer
-            )
-        })
+        .filter(|p| matches!(p.kind, VoidPtrKind::InputBuffer | VoidPtrKind::OutputBuffer))
         .count();
     (user_data, callbacks, allocs, buffers)
 }
