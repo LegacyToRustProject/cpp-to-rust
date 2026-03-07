@@ -1,0 +1,37 @@
+additional_instructions = """
+Target: C++17 code conversion.
+- Convert std::optional to Option<T>
+- Convert std::variant to Rust enum
+- Convert std::any to Box<dyn Any>
+- Convert std::string_view to &str
+- Convert structured bindings (auto [a, b] = ...) to Rust destructuring (let (a, b) = ...)
+- Convert if constexpr to compile-time conditional (cfg or const generics)
+- Convert std::filesystem to std::fs and std::path
+- Convert [[nodiscard]] to #[must_use]
+- Convert [[maybe_unused]] to #[allow(unused)]
+- All C++11/14 rules also apply
+"""
+
+[type_mappings]
+"std::string" = "String"
+"std::string_view" = "&str"
+"std::optional" = "Option"
+"std::variant" = "enum"
+"std::any" = "Box<dyn Any>"
+"std::vector" = "Vec"
+"std::map" = "BTreeMap"
+"std::unordered_map" = "HashMap"
+"std::unique_ptr" = "Box"
+"std::shared_ptr" = "Arc"
+"std::filesystem::path" = "PathBuf"
+"std::filesystem::directory_iterator" = "std::fs::read_dir"
+
+[api_mappings]
+"std::make_unique" = "Box::new"
+"std::make_shared" = "Arc::new"
+"std::get" = "match / if let"
+"std::holds_alternative" = "matches!"
+"std::visit" = "match"
+"std::filesystem::exists" = "Path::exists"
+"std::filesystem::create_directory" = "std::fs::create_dir"
+"std::filesystem::remove" = "std::fs::remove_file"

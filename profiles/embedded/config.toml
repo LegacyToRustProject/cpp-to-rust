@@ -1,0 +1,31 @@
+additional_instructions = """
+Target: Embedded C code conversion.
+- Use #![no_std] where possible
+- Prefer fixed-size arrays over Vec (no heap allocation)
+- Convert volatile reads/writes to core::ptr::read_volatile / write_volatile
+- Convert register access patterns to memory-mapped I/O patterns
+- Use core:: instead of std:: for no_std compatibility
+- Convert interrupt handlers to #[interrupt] or similar embedded-hal patterns
+- Prefer static allocation over dynamic allocation
+- Convert bitfield operations to bitflags crate or manual bit manipulation
+- Keep unsafe blocks minimal but accept them for hardware access
+"""
+
+[type_mappings]
+"uint8_t" = "u8"
+"uint16_t" = "u16"
+"uint32_t" = "u32"
+"int8_t" = "i8"
+"int16_t" = "i16"
+"int32_t" = "i32"
+"size_t" = "usize"
+"volatile uint32_t*" = "*mut u32"
+"void" = "()"
+
+[api_mappings]
+"printf" = "// use defmt::info! or similar"
+"malloc" = "// use static allocation or heapless::Vec"
+"free" = "// RAII handles deallocation"
+"memcpy" = "core::ptr::copy_nonoverlapping"
+"memset" = "core::ptr::write_bytes"
+"delay_ms" = "cortex_m::asm::delay or embedded_hal::blocking::delay"

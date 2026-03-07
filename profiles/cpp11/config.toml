@@ -1,0 +1,43 @@
+additional_instructions = """
+Target: C++11/14 code conversion.
+- Convert auto type deduction to explicit Rust types where possible, or let Rust infer
+- Convert lambda expressions to Rust closures
+- Convert std::move to Rust's default move semantics
+- Convert range-based for loops to Rust iterators
+- Convert std::unique_ptr to Box<T>
+- Convert std::shared_ptr to Arc<T> (thread-safe) or Rc<T> (single-threaded)
+- Convert enum class to Rust enum
+- Convert constexpr to const fn
+- Convert nullptr to None (for Option) or null-check removal
+"""
+
+[type_mappings]
+"std::string" = "String"
+"std::vector" = "Vec"
+"std::map" = "BTreeMap"
+"std::unordered_map" = "HashMap"
+"std::set" = "BTreeSet"
+"std::unordered_set" = "HashSet"
+"std::unique_ptr" = "Box"
+"std::shared_ptr" = "Arc"
+"std::weak_ptr" = "Weak"
+"std::pair" = "tuple"
+"std::tuple" = "tuple"
+"std::optional" = "Option"
+"std::function" = "Box<dyn Fn>"
+"std::thread" = "std::thread::JoinHandle"
+"std::mutex" = "std::sync::Mutex"
+
+[api_mappings]
+"std::make_unique" = "Box::new"
+"std::make_shared" = "Arc::new"
+"push_back" = "push"
+"emplace_back" = "push"
+"begin()" = "iter()"
+"end()" = "// iterator end implicit in Rust"
+"size()" = "len()"
+"empty()" = "is_empty()"
+"find" = "get / contains_key"
+"cout" = "println!"
+"cerr" = "eprintln!"
+"endl" = r#"\n"#

@@ -1,0 +1,34 @@
+additional_instructions = """
+Target: C11 code conversion.
+- Convert _Atomic types to std::sync::atomic types (AtomicI32, AtomicBool, etc.)
+- Convert _Thread_local to thread_local! macro
+- Convert _Static_assert to compile-time assertions (const assert or static_assert crate)
+- Convert _Generic to Rust generics or trait implementations
+- Convert C11 threads (thrd_create, mtx_lock) to std::thread and std::sync::Mutex
+- All C99 rules also apply
+"""
+
+[type_mappings]
+"int8_t" = "i8"
+"int16_t" = "i16"
+"int32_t" = "i32"
+"int64_t" = "i64"
+"uint8_t" = "u8"
+"uint16_t" = "u16"
+"uint32_t" = "u32"
+"uint64_t" = "u64"
+"size_t" = "usize"
+"_Atomic int" = "AtomicI32"
+"_Atomic bool" = "AtomicBool"
+"atomic_int" = "AtomicI32"
+"atomic_bool" = "AtomicBool"
+"mtx_t" = "Mutex"
+"thrd_t" = "JoinHandle"
+
+[api_mappings]
+"thrd_create" = "std::thread::spawn"
+"thrd_join" = "handle.join()"
+"mtx_lock" = "mutex.lock()"
+"mtx_unlock" = "// automatic unlock via MutexGuard drop"
+"atomic_store" = ".store(value, Ordering::SeqCst)"
+"atomic_load" = ".load(Ordering::SeqCst)"

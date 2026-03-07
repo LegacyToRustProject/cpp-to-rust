@@ -1,0 +1,26 @@
+additional_instructions = """
+Target: C99 code conversion.
+- Use standard Rust types for C99 fixed-width integers (uint8_t -> u8, int32_t -> i32, etc.)
+- Convert C99 designated initializers to Rust struct initialization
+- Convert C99 variable-length arrays to Vec<T>
+- Convert C99 inline functions to Rust inline functions (#[inline])
+- Convert restrict pointers to Rust references (the aliasing rules are similar)
+- Convert _Bool to bool
+"""
+
+[type_mappings]
+"int8_t" = "i8"
+"int16_t" = "i16"
+"int32_t" = "i32"
+"int64_t" = "i64"
+"uint8_t" = "u8"
+"uint16_t" = "u16"
+"uint32_t" = "u32"
+"uint64_t" = "u64"
+"size_t" = "usize"
+"ssize_t" = "isize"
+"_Bool" = "bool"
+"char" = "u8"
+"unsigned char" = "u8"
+"float" = "f32"
+"double" = "f64"

@@ -1,0 +1,4 @@
+Read: Line 1: Hello
+Read: Line 2: World
+Read: Line 3: Test
+Total lines: 3

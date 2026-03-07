@@ -1,0 +1,5 @@
+Stack: [1, 2, 3]
+Size: 3
+Pop: 3
+Pop: 2
+Stack after pops: [1]
