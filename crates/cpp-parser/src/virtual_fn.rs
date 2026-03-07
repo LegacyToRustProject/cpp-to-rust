@@ -415,19 +415,34 @@ public:
 
     #[test]
     fn test_tinyxml2_header() {
-        let header = include_str!("../../../test-projects/tinyxml2/tinyxml2.h");
+        // Inline fixture extracted from TinyXML2 — avoids depending on test-projects/ in CI
+        let header = r#"
+class XMLVisitor {
+public:
+    virtual ~XMLVisitor() {}
+    virtual bool VisitEnter( const XMLDocument& ) { return true; }
+    virtual bool VisitExit( const XMLDocument& ) { return true; }
+    virtual bool VisitEnter( const XMLElement&, const XMLAttribute* ) { return true; }
+    virtual bool VisitExit( const XMLElement& ) { return true; }
+};
+class MemPool {
+public:
+    virtual ~MemPool() {}
+    virtual int ItemSize() const = 0;
+    virtual void* Alloc() = 0;
+    virtual void Free( void* ) = 0;
+    virtual void SetTracked() = 0;
+};
+"#;
         let classes = detect_virtual_functions(header);
         let (total, pure, with_default) = count_virtual_fns(&classes);
         println!(
-            "TinyXML2: {} classes, {} virtual fns ({} pure, {} with default)",
+            "TinyXML2 fixture: {} classes, {} virtual fns ({} pure, {} with default)",
             classes.len(),
             total,
             pure,
             with_default
         );
-        // Regex-based detection finds single-line virtual declarations only.
-        // TinyXML2 has many multi-line/macro-wrapped virtuals not captured by simple regex.
-        // Minimum: MemPool (pure virtuals) + XMLVisitor (default impls).
         assert!(classes.len() >= 2, "should detect multiple virtual classes");
         assert!(
             total >= 5,
