@@ -1,0 +1,1688 @@
+[2m2026-03-07T16:08:04.994919Z[0m [32m INFO[0m [2mcpp_to_rust[0m[2m:[0m Converting project: ./test-projects/cjson
+[2m2026-03-07T16:08:05.549897Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting 99 files from C project
+[2m2026-03-07T16:08:05.549927Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/cJSON.c
+[2m2026-03-07T16:08:05.714599Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/cJSON.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:05.714620Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/cJSON.h
+[2m2026-03-07T16:08:05.784424Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/cJSON.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:05.784497Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/cJSON_Utils.c
+[2m2026-03-07T16:08:05.857709Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/cJSON_Utils.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:05.857730Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/cJSON_Utils.h
+[2m2026-03-07T16:08:05.915173Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/cJSON_Utils.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:05.915203Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/fuzzing/afl.c
+[2m2026-03-07T16:08:05.972563Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/fuzzing/afl.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:05.972585Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/fuzzing/cjson_read_fuzzer.c
+[2m2026-03-07T16:08:06.034357Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/fuzzing/cjson_read_fuzzer.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.034453Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/fuzzing/fuzz_main.c
+[2m2026-03-07T16:08:06.085059Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/fuzzing/fuzz_main.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.085180Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/test.c
+[2m2026-03-07T16:08:06.144515Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/test.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.144537Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/cjson_add.c
+[2m2026-03-07T16:08:06.212353Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/cjson_add.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.212428Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/common.h
+[2m2026-03-07T16:08:06.269580Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/common.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.269668Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/compare_tests.c
+[2m2026-03-07T16:08:06.334633Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/compare_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.334719Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/json_patch_tests.c
+[2m2026-03-07T16:08:06.399665Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/json_patch_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.399729Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/minify_tests.c
+[2m2026-03-07T16:08:06.458501Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/minify_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.458578Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/misc_tests.c
+[2m2026-03-07T16:08:06.527668Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/misc_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.527685Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/misc_utils_tests.c
+[2m2026-03-07T16:08:06.583507Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/misc_utils_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.583525Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/old_utils_tests.c
+[2m2026-03-07T16:08:06.640302Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/old_utils_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.640326Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_array.c
+[2m2026-03-07T16:08:06.696283Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_array.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.696362Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_examples.c
+[2m2026-03-07T16:08:06.752598Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_examples.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.752622Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_hex4.c
+[2m2026-03-07T16:08:06.807512Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_hex4.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.807535Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_number.c
+[2m2026-03-07T16:08:06.870374Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_number.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.870455Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_object.c
+[2m2026-03-07T16:08:06.929799Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_object.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.929829Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_string.c
+[2m2026-03-07T16:08:06.991356Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_string.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:06.991371Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_value.c
+[2m2026-03-07T16:08:07.050373Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_value.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.050389Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/parse_with_opts.c
+[2m2026-03-07T16:08:07.107645Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/parse_with_opts.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.107661Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/print_array.c
+[2m2026-03-07T16:08:07.164456Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/print_array.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.164472Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/print_number.c
+[2m2026-03-07T16:08:07.225889Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/print_number.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.225903Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/print_object.c
+[2m2026-03-07T16:08:07.282872Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/print_object.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.282887Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/print_string.c
+[2m2026-03-07T16:08:07.341076Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/print_string.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.341093Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/print_value.c
+[2m2026-03-07T16:08:07.404331Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/print_value.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.404356Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/readme_examples.c
+[2m2026-03-07T16:08:07.462287Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/readme_examples.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.462348Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.c
+[2m2026-03-07T16:08:07.516908Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.516964Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.h
+[2m2026-03-07T16:08:07.573635Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.573652Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.c
+[2m2026-03-07T16:08:07.624447Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.624468Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.h
+[2m2026-03-07T16:08:07.810409Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.810428Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode.c
+[2m2026-03-07T16:08:07.862449Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.862466Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode2.c
+[2m2026-03-07T16:08:07.919881Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:07.919901Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c
+[2m2026-03-07T16:08:08.095683Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.095701Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode_Runner.c
+[2m2026-03-07T16:08:08.179033Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.179049Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.c
+[2m2026-03-07T16:08:08.356874Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.356896Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.h
+[2m2026-03-07T16:08:08.414548Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.414645Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.c
+[2m2026-03-07T16:08:08.477221Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.477244Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.h
+[2m2026-03-07T16:08:08.533722Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.533746Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode.c
+[2m2026-03-07T16:08:08.596050Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.596072Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode2.c
+[2m2026-03-07T16:08:08.650853Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.650876Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c
+[2m2026-03-07T16:08:08.705371Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.705388Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c
+[2m2026-03-07T16:08:08.765669Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.765685Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/all_tests.c
+[2m2026-03-07T16:08:08.821454Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/all_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.821470Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.c
+[2m2026-03-07T16:08:08.870264Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.870285Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.h
+[2m2026-03-07T16:08:08.928750Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.928766Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.c
+[2m2026-03-07T16:08:08.988060Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:08.988073Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.h
+[2m2026-03-07T16:08:09.045393Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.045410Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.c
+[2m2026-03-07T16:08:09.096604Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.096626Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.h
+[2m2026-03-07T16:08:09.150029Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.150049Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode.c
+[2m2026-03-07T16:08:09.207524Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.207540Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode2.c
+[2m2026-03-07T16:08:09.274191Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.274205Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/examples/unity_config.h
+[2m2026-03-07T16:08:09.347353Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/examples/unity_config.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.347369Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.c
+[2m2026-03-07T16:08:09.414566Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.414581Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.h
+[2m2026-03-07T16:08:09.474232Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.474244Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_internals.h
+[2m2026-03-07T16:08:09.524733Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_internals.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.524745Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h
+[2m2026-03-07T16:08:09.578716Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.578728Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/main/AllTests.c
+[2m2026-03-07T16:08:09.627362Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/main/AllTests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.627374Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/template_fixture_tests.c
+[2m2026-03-07T16:08:09.684954Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/template_fixture_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.684965Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_Test.c
+[2m2026-03-07T16:08:09.751180Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_Test.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.751190Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_TestRunner.c
+[2m2026-03-07T16:08:09.814011Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_TestRunner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.814024Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.c
+[2m2026-03-07T16:08:09.867882Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.867896Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.h
+[2m2026-03-07T16:08:09.916587Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.916598Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/src/unity.c
+[2m2026-03-07T16:08:09.993897Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/src/unity.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:09.993909Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/src/unity.h
+[2m2026-03-07T16:08:10.087709Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/src/unity.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.087725Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/src/unity_internals.h
+[2m2026-03-07T16:08:10.193003Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/src/unity_internals.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.193017Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_cmd.c
+[2m2026-03-07T16:08:10.246334Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_cmd.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.246346Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_def.c
+[2m2026-03-07T16:08:10.302297Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_def.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.302315Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.c
+[2m2026-03-07T16:08:10.358922Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.358937Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.h
+[2m2026-03-07T16:08:10.414829Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.414841Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_cmd.c
+[2m2026-03-07T16:08:10.473125Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_cmd.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.473143Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_def.c
+[2m2026-03-07T16:08:10.531621Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_def.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.531632Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.c
+[2m2026-03-07T16:08:10.692476Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.692488Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.h
+[2m2026-03-07T16:08:10.753662Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.753672Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new1.c
+[2m2026-03-07T16:08:10.909833Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.909844Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new2.c
+[2m2026-03-07T16:08:10.958048Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:10.958058Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_param.c
+[2m2026-03-07T16:08:11.007475Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_param.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.007486Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run1.c
+[2m2026-03-07T16:08:11.064342Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.064353Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run2.c
+[2m2026-03-07T16:08:11.118856Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.118862Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_yaml.c
+[2m2026-03-07T16:08:11.173637Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_yaml.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.173643Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_new1.c
+[2m2026-03-07T16:08:11.341376Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_new1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.341388Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_new2.c
+[2m2026-03-07T16:08:11.401444Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_new2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.401456Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_param.c
+[2m2026-03-07T16:08:11.460442Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_param.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.460459Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_run1.c
+[2m2026-03-07T16:08:11.516480Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_run1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.516495Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_run2.c
+[2m2026-03-07T16:08:11.570245Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_run2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.570256Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/expectdata/testsample_yaml.c
+[2m2026-03-07T16:08:11.628259Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_yaml.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.628273Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/CException.h
+[2m2026-03-07T16:08:11.684457Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/CException.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.684470Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/Defs.h
+[2m2026-03-07T16:08:11.743718Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/Defs.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.743738Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/cmock.h
+[2m2026-03-07T16:08:11.793302Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/cmock.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.793526Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/mockMock.h
+[2m2026-03-07T16:08:11.847430Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/mockMock.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.847444Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/testRunnerGenerator.c
+[2m2026-03-07T16:08:11.904117Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGenerator.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.904153Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorSmall.c
+[2m2026-03-07T16:08:11.958174Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorSmall.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:11.958189Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorWithMocks.c
+[2m2026-03-07T16:08:12.017871Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorWithMocks.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:12.017891Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/tests/testparameterized.c
+[2m2026-03-07T16:08:12.073191Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/tests/testparameterized.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:12.073204Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity/test/tests/testunity.c
+[2m2026-03-07T16:08:12.198680Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity/test/tests/testunity.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2m2026-03-07T16:08:12.198691Z[0m [32m INFO[0m [2mrust_generator::generator[0m[2m:[0m Converting file: ./test-projects/cjson/tests/unity_setup.c
+[2m2026-03-07T16:08:12.262382Z[0m [31mERROR[0m [2mrust_generator::generator[0m[2m:[0m Failed to convert ./test-projects/cjson/tests/unity_setup.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+Conversion complete:
+  Files converted: 0
+  Errors: 99
+  ERROR: Failed to convert ./test-projects/cjson/cJSON.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/cJSON.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/cJSON_Utils.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/cJSON_Utils.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/fuzzing/afl.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/fuzzing/cjson_read_fuzzer.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/fuzzing/fuzz_main.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/test.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/cjson_add.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/common.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/compare_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/json_patch_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/minify_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/misc_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/misc_utils_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/old_utils_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_array.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_examples.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_hex4.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_number.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_object.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_string.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_value.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/parse_with_opts.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/print_array.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/print_number.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/print_object.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/print_string.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/print_value.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/readme_examples.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_1/test/test_runners/TestProductionCode_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_2/test/test_runners/all_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/helper/UnityHelper.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/src/ProductionCode2.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/example_3/test/TestProductionCode2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/examples/unity_config.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_internals.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/main/AllTests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/template_fixture_tests.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_Test.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_fixture_TestRunner.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/extras/fixture/test/unity_output_Spy.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/src/unity.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/src/unity.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/src/unity_internals.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_cmd.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_def.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_head1.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_cmd.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_def.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_head1.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_new2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_param.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_run2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_mock_yaml.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_new1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_new2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_param.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_run1.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_run2.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/expectdata/testsample_yaml.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/CException.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/Defs.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/cmock.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/mockMock.h: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGenerator.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorSmall.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/testdata/testRunnerGeneratorWithMocks.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/tests/testparameterized.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity/test/tests/testunity.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+  ERROR: Failed to convert ./test-projects/cjson/tests/unity_setup.c: Gemini API error (403 Forbidden): {
+  "error": {
+    "code": 403,
+    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
