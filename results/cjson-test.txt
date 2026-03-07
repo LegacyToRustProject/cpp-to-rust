@@ -1,0 +1,29 @@
+   Compiling cjson-rs v0.1.0 (/home/ubuntu/cpp-to-rust/output/cjson)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.30s
+     Running unittests src/lib.rs (target/debug/deps/cjson_rs-0a6b49b3f87f6a9d)
+
+running 9 tests
+test tests::test_nested_json ... ok
+test tests::test_parse_array ... ok
+test tests::test_parse_bool ... ok
+test tests::test_parse_null ... ok
+test tests::test_parse_number_float ... ok
+test tests::test_parse_number_int ... ok
+test tests::test_parse_object ... ok
+test tests::test_parse_string ... ok
+test tests::test_safety_metric ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/cjson_test-caba06def8e7332e)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests cjson_rs
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

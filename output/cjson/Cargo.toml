@@ -1,0 +1,10 @@
+[workspace]
+
+[package]
+name = "cjson-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cjson_test"
+path = "src/main.rs"
