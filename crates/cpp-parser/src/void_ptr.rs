@@ -79,14 +79,18 @@ pub fn detect_void_ptr_patterns(source: &str) -> Vec<VoidPtrPattern> {
             });
         }
 
-        // --- Plain void* parameters (skip lines already handled above) ---
-        if !alloc_re.is_match(line) && !void_fn_re.is_match(line) {
-            for cap in void_param_re.captures_iter(line) {
-                let name = &cap[1];
-                // Skip `void` standalone (function returning void)
-                if name == "void" || name.is_empty() {
-                    continue;
-                }
+        // --- Plain void* parameters ---
+        // Strip fn-pointer sub-expressions so we don't double-count their
+        // internal `void *` params (e.g. the `void *` inside `void (*cb)(void *, ...)`).
+        let stripped = alloc_re.replace_all(line, " __FN_PTR__ ");
+        let stripped = void_fn_re.replace_all(&stripped, " __FN_PTR__ ");
+        for cap in void_param_re.captures_iter(&stripped) {
+            let name = &cap[1];
+            // Skip `void` standalone (function returning void) and placeholder
+            if name == "void" || name.is_empty() || name == "__FN_PTR__" {
+                continue;
+            }
+            {
                 let is_const = line.contains("const void");
                 let (kind, rust_suggestion) = classify_void_param(name, is_const, line);
                 patterns.push(VoidPtrPattern {
@@ -131,7 +135,7 @@ fn classify_void_fn(name: &str, params: &str) -> (VoidPtrKind, String) {
     }
 
     // Check if it looks like a callback with user_data (last param is void*)
-    let last_param = params.split(',').last().unwrap_or("").trim();
+    let last_param = params.split(',').next_back().unwrap_or("").trim();
     if last_param.starts_with("void") || last_param == "void *" {
         // void (*cb1)(void *, size_t, void *) → field callback
         // Suggest generic parameter approach
@@ -174,7 +178,7 @@ fn build_callback_rust_type(params: &str) -> String {
     "Box<dyn FnMut(...)>".to_string()
 }
 
-fn classify_void_param(name: &str, is_const: bool, line: &str) -> (VoidPtrKind, String) {
+fn classify_void_param(name: &str, is_const: bool, _line: &str) -> (VoidPtrKind, String) {
     let lower_name = name.to_lowercase();
 
     // user_data / data / context / userdata → generic T
@@ -195,9 +199,7 @@ fn classify_void_param(name: &str, is_const: bool, line: &str) -> (VoidPtrKind, 
             "s" | "src" | "source" | "buf" | "buffer" | "input" | "in" | "data"
         )
     {
-        if is_const || line.contains("const") {
-            return (VoidPtrKind::InputBuffer, "&[u8]".to_string());
-        }
+        return (VoidPtrKind::InputBuffer, "&[u8]".to_string());
     }
 
     // void* dest/dst/out → &mut [u8]

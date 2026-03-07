@@ -1,6 +1,8 @@
 use std::collections::HashMap;
 
 use cpp_parser::types::{CppClass, CppFile, CppFunction, CppStruct, Language};
+use cpp_parser::virtual_fn::{detect_virtual_functions, generate_virtual_fn_hints};
+use cpp_parser::void_ptr::{detect_void_ptr_patterns, generate_void_ptr_hints};
 
 pub struct ConversionProfile {
     pub name: String,
@@ -111,6 +113,22 @@ pub fn build_file_prompt(file: &CppFile) -> String {
         for inc in &file.includes {
             prompt.push_str(&format!("- {}\n", inc));
         }
+        prompt.push('\n');
+    }
+
+    // Inject void* conversion hints (Phase 1 improvement)
+    let void_patterns = detect_void_ptr_patterns(&file.source);
+    let void_hints = generate_void_ptr_hints(&void_patterns);
+    if !void_hints.is_empty() {
+        prompt.push_str(&void_hints);
+        prompt.push('\n');
+    }
+
+    // Inject virtual function → trait hints (Phase 2 improvement)
+    let virtual_classes = detect_virtual_functions(&file.source);
+    let virtual_hints = generate_virtual_fn_hints(&virtual_classes);
+    if !virtual_hints.is_empty() {
+        prompt.push_str(&virtual_hints);
         prompt.push('\n');
     }
 

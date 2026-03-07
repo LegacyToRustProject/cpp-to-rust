@@ -1,0 +1,14 @@
+[workspace]
+
+[package]
+name = "sqlite3-utf"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sqlite3_utf"
+path = "src/lib.rs"
+
+[[bin]]
+name = "utf_test"
+path = "src/main.rs"
