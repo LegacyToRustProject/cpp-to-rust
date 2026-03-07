@@ -261,6 +261,25 @@ fn create_llm_provider(
                 model.to_string(),
             )))
         }
-        _ => anyhow::bail!("Unknown LLM provider: {}. Supported: claude", name),
+        "gemini" => {
+            let api_key = std::env::var("GOOGLE_API_KEY").map_err(|_| {
+                anyhow::anyhow!(
+                    "GOOGLE_API_KEY environment variable required for Gemini provider"
+                )
+            })?;
+            let resolved_model = if model == "claude-sonnet-4-20250514" {
+                "gemini-2.0-flash"
+            } else {
+                model
+            };
+            Ok(Box::new(rust_generator::llm::GeminiProvider::new(
+                api_key,
+                resolved_model.to_string(),
+            )))
+        }
+        _ => anyhow::bail!(
+            "Unknown LLM provider: {}. Supported: claude, gemini",
+            name
+        ),
     }
 }
