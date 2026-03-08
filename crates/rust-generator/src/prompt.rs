@@ -1,6 +1,9 @@
 use std::collections::HashMap;
 
+use cpp_parser::stl_containers::{detect_stl_patterns, generate_stl_hints};
 use cpp_parser::types::{CppClass, CppFile, CppFunction, CppStruct, Language};
+use cpp_parser::virtual_fn::{detect_virtual_functions, generate_virtual_fn_hints};
+use cpp_parser::void_ptr::{detect_void_ptr_patterns, generate_void_ptr_hints};
 
 pub struct ConversionProfile {
     pub name: String,
@@ -67,12 +70,13 @@ Your task is to convert {lang_name} code into idiomatic, safe Rust code that pre
 - **Operator overloading** → Implement `std::ops` traits
 - **RAII** → Implement `Drop` trait where needed
 - **Exceptions** → `Result<T, E>` with custom error types
-- **`std::string`** → `String`
-- **`std::vector`** → `Vec<T>`
-- **`std::map`** → `HashMap<K, V>` or `BTreeMap<K, V>`
-- **`std::unique_ptr`** → `Box<T>`
-- **`std::shared_ptr`** → `Arc<T>` or `Rc<T>`
-- **`std::optional`** → `Option<T>`
+- **STL Sequence**: `std::vector<T>` → `Vec<T>` · `std::array<T,N>` → `[T; N]` · `std::deque<T>` → `VecDeque<T>` · `std::list<T>` → `LinkedList<T>` · `std::forward_list<T>` → `LinkedList<T>`
+- **STL Ordered**: `std::map<K,V>` → `BTreeMap<K,V>` · `std::multimap<K,V>` → `BTreeMap<K,Vec<V>>` · `std::set<T>` → `BTreeSet<T>` · `std::multiset<T>` → `BTreeMap<T,usize>`
+- **STL Unordered**: `std::unordered_map<K,V>` → `HashMap<K,V>` · `std::unordered_multimap<K,V>` → `HashMap<K,Vec<V>>` · `std::unordered_set<T>` → `HashSet<T>` · `std::unordered_multiset<T>` → `HashMap<T,usize>`
+- **STL Adapters**: `std::stack<T>` → `Vec<T>` (push/pop) · `std::queue<T>` → `VecDeque<T>` · `std::priority_queue<T>` → `BinaryHeap<T>`
+- **Smart Ptrs**: `std::unique_ptr<T>` → `Box<T>` · `std::shared_ptr<T>` → `Arc<T>` · `std::weak_ptr<T>` → `Weak<T>`
+- **Strings**: `std::string` → `String` · `std::string_view` → `&str` · `std::wstring` → `String` (UTF-16→UTF-8)
+- **Utility**: `std::optional<T>` → `Option<T>` · `std::variant<...>` → `enum` · `std::tuple<...>` → `(T, U, ...)` · `std::pair<T,U>` → `(T, U)` · `std::bitset<N>` → `[bool; N]` · `std::span<T>` → `&[T]` · `std::function<R(A)>` → `Box<dyn Fn(A) -> R>`
 - **Move semantics** → Rust moves by default; explicit `Clone` where needed
 - **Namespaces** → Rust modules
 "#,
@@ -111,6 +115,30 @@ pub fn build_file_prompt(file: &CppFile) -> String {
         for inc in &file.includes {
             prompt.push_str(&format!("- {}\n", inc));
         }
+        prompt.push('\n');
+    }
+
+    // Inject STL container / type mapping hints
+    let stl_occ = detect_stl_patterns(&file.source);
+    let stl_hints = generate_stl_hints(&stl_occ);
+    if !stl_hints.is_empty() {
+        prompt.push_str(&stl_hints);
+        prompt.push('\n');
+    }
+
+    // Inject void* conversion hints
+    let void_patterns = detect_void_ptr_patterns(&file.source);
+    let void_hints = generate_void_ptr_hints(&void_patterns);
+    if !void_hints.is_empty() {
+        prompt.push_str(&void_hints);
+        prompt.push('\n');
+    }
+
+    // Inject virtual function → trait hints
+    let virtual_classes = detect_virtual_functions(&file.source);
+    let virtual_hints = generate_virtual_fn_hints(&virtual_classes);
+    if !virtual_hints.is_empty() {
+        prompt.push_str(&virtual_hints);
         prompt.push('\n');
     }
 
