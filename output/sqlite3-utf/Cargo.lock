@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "cjson-rs"
+name = "sqlite3-utf"
 version = "0.1.0"

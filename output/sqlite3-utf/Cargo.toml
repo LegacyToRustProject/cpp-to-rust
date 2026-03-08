@@ -1,10 +1,14 @@
 [workspace]
 
 [package]
-name = "cjson-rs"
+name = "sqlite3-utf"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "sqlite3_utf"
+path = "src/lib.rs"
+
 [[bin]]
-name = "cjson_test"
+name = "utf_test"
 path = "src/main.rs"

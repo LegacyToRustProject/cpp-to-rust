@@ -1,0 +1,2 @@
+    Checking sqlite3-utf v0.1.0 (/home/ubuntu/cpp-to-rust/output/sqlite3-utf)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.94s
